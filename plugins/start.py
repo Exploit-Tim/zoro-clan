@@ -76,11 +76,11 @@ async def start_command(client: Client, message: Message):
                 reply_markup = None
 
             button_text = "Update"
-            button_url = "https://t.me/Shirohige_Animes"
+            button_url = "https://t.me/lokontolya"
             reply_markup = InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton(text=button_text, url=button_url),
-                    InlineKeyboardButton("Support", url = "https://t.me/+7a-lbDl5nk8zNDU1")]
+                    InlineKeyboardButton("Support", url = "https://t.me/lokontolya")]
                 ]
             )
 
@@ -110,7 +110,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton(text="🎭", callback_data="about"),
                 ],[ InlineKeyboardButton( "ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", callback_data = "main" ),
                     InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", callback_data = "source")
-                ], [ InlineKeyboardButton("ᴡᴀᴛᴄʜ 𝟷𝟾+ sʜᴏʀᴛs ᴠɪᴅᴇᴏs", url = "https://t.me/Dsh_Alliance/shorts") ],
+                ], [ InlineKeyboardButton("ᴡᴀᴛᴄʜ 𝟷𝟾+ sʜᴏʀᴛs ᴠɪᴅᴇᴏs", url = "https://t.me/lokontolya") ],
                 [
                     InlineKeyboardButton("ᴍᴀɪɴ", callback_data = "about"),
                     InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about")
@@ -151,7 +151,7 @@ async def not_joined(client: Client, message: Message):
         [
            InlineKeyboardButton(
                 "Join Channel",
-                url = "https://t.me/Dsh_Alliance"),
+                url = "https://t.me/bloggblok"),
             InlineKeyboardButton(
                 "Join Channel",
                 url = client.invitelink)
